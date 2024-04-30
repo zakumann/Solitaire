@@ -5,10 +5,12 @@ using UnityEngine;
 
 public class UserInput : MonoBehaviour
 {
+    private Solitaire solitaire;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        solitaire = FindObjectOfType<Solitaire>();
     }
 
     // Update is called once per frame
@@ -30,6 +32,7 @@ public class UserInput : MonoBehaviour
                 {
                     //clicked deck
                     Deck();
+                    solitaire.DealFromDeck();
                 }
                 else if (hit.collider.CompareTag("Card"))
                 {
@@ -53,21 +56,22 @@ public class UserInput : MonoBehaviour
     void Deck()
     {
         // deck click actions
-        print("Click Deck");
+        print("Click on Deck");
+        solitaire.DealFromDeck();
     }
     void Card()
     {
         // card click actions
-        print("Click Card");
+        print("Click on Card");
     }
     void Top()
     {
         // top click actions
-        print("Click Top");
+        print("Click on Top");
     }
     void Bottom()
     {
         // bottom click actions
-        print("Click Bottom");
+        print("Click on Bottom");
     }
 }

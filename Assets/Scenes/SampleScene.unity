@@ -875,7 +875,7 @@ Transform:
   m_GameObject: {fileID: 735194788}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.5, y: 0, z: 0}
+  m_LocalPosition: {x: -5, y: 0, z: 0}
   m_LocalScale: {x: 0.5, y: 0.4, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1191,7 +1191,7 @@ Transform:
   m_GameObject: {fileID: 1006400876}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5, y: 0, z: 0}
+  m_LocalPosition: {x: -7.5, y: 0, z: 0}
   m_LocalScale: {x: 0.5, y: 0.4, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2087,7 +2087,23 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 6178f670415d29944b4a8627b8dce7fb, type: 3}
   - {fileID: 21300000, guid: 47eb1004299ac3c4b87ad1b415052ffa, type: 3}
   cardPrefab: {fileID: 3208185653215533586, guid: c33e4b1a210cd8d499a7cb41e461d9bb, type: 3}
+  deckButton: {fileID: 1642865095}
+  bottomPos:
+  - {fileID: 1006400876}
+  - {fileID: 735194788}
+  - {fileID: 1302576125}
+  - {fileID: 58265053}
+  - {fileID: 1471738066}
+  - {fileID: 63748966}
+  - {fileID: 1422088957}
+  topPos:
+  - {fileID: 919284913}
+  - {fileID: 1109286145}
+  - {fileID: 445713450}
+  - {fileID: 546087313}
+  tripsOnDisplay: []
   deck: []
+  discardPile: []
 --- !u!4 &1589715747
 Transform:
   m_ObjectHideFlags: 0
@@ -2131,7 +2147,7 @@ Transform:
   m_GameObject: {fileID: 1642865095}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5, y: 3.4, z: 0}
+  m_LocalPosition: {x: -7.5, y: 3.4, z: 0}
   m_LocalScale: {x: 0.4, y: 0.4, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
