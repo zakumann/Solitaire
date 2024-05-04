@@ -26,7 +26,7 @@ public class Selectable : MonoBehaviour
                 valueString += c.ToString();
             }
 
-            if (valueString == "A")
+            if (valueString == "1")
             {
                 value = 1;
             }

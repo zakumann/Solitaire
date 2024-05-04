@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
 
-public class Solitaire : MonoBehaviour
+
+public class SolitaireEasy : MonoBehaviour
 {
-    public Sprite[] cardFaces;
+public Sprite[] cardFaces;
     public GameObject cardPrefab;
     public GameObject deckButton;
     public GameObject[] bottomPos;
