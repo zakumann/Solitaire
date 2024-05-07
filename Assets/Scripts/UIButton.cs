@@ -18,6 +18,12 @@ public class UIButton : MonoBehaviour
         
     }
 
+    public void QuitGame()
+    {
+        Application.Quit();
+        print("Quit");
+    }
+
     public void PlayAgain()
     {
         highScorePanel.SetActive(false);
